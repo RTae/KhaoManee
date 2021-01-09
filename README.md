@@ -80,16 +80,22 @@ or from my build
 ```
 
 ### :fire: Demo
+
+Return images with draw bounding box
 ![bounding box](https://raw.githubusercontent.com/RTae/KhaoManee/main/example/bb.png)
 [source of images](https://www.nbcnews.com/pop-culture/celebrity/what-keanu-reeves-dating-age-appropriate-alexandra-grant-reveals-about-n1076756)
 
+Return images with draw bounding box and landmarks
 ![bounding box and landmarks](https://raw.githubusercontent.com/RTae/KhaoManee/main/example/bbL.png)
 [source of images](https://www.nbcnews.com/pop-culture/celebrity/what-keanu-reeves-dating-age-appropriate-alexandra-grant-reveals-about-n1076756)
 
+Return data of bounding box and landmarks
 ![bounding box and landmarks data](https://raw.githubusercontent.com/RTae/KhaoManee/main/example/data.png)
 [source of images](https://www.nbcnews.com/pop-culture/celebrity/what-keanu-reeves-dating-age-appropriate-alexandra-grant-reveals-about-n1076756)
 
+Return images with draw bounding and their name
 ![face recognition](https://raw.githubusercontent.com/RTae/KhaoManee/main/example/result.png)
+
 [source of images](https://prachatai.com/english/node/8000)
 
 ### :blue_book: Reference
