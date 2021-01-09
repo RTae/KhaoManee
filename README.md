@@ -9,7 +9,7 @@ This is KhaoManee
     '''
     git clone https://github.com/RTae/KhaoManee.git
     '''
-2. pip install -r requirements.txt
+2. pip install -r reqguirements.txt
 
 3. uvicorn main:app --reload
 
