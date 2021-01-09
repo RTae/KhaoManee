@@ -1,4 +1,7 @@
 # KhaoManee
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 ***KhaoManee*** is a face-detection and face-recognition API that provides face bounding box and face-landmarks for face-detection. KhaoManee's face-detection model uses ***MTCNN*** model that returns 5 points face-landmark. KhaoManee's face-recognition API can recognize the member of Parliament in Thailand, but it can detect only a few people such as ***Prayut Chan-o-cha***, ***Prawit Wongsuwan***, ***Thanathorn Juangroongruangkit***. I will add more in the future. If you have any person who is a member of Parliament in Thailand that you are interested in. You can tell me by creating an issue. I will consider it and add it. KhaoManee's face-recognition use ***Facenet*** model to find similarity with embedding vector (For this project, I use vector size is 512). Last, this project implements the model with Pytorch and  API with FastAPI. If you have any problems or any questions,  you can tell me by creating issue :pray:
 
 ### :pushpin: Requirement
@@ -77,7 +80,17 @@ or from my build
 ```
 
 ### :fire: Demo
+![bounding box](https://raw.githubusercontent.com/RTae/KhaoManee/main/example/bb.png)
+[source of images](https://www.nbcnews.com/pop-culture/celebrity/what-keanu-reeves-dating-age-appropriate-alexandra-grant-reveals-about-n1076756)
 
+![bounding box and landmarks](https://raw.githubusercontent.com/RTae/KhaoManee/main/example/bbL.png)
+[source of images](https://www.nbcnews.com/pop-culture/celebrity/what-keanu-reeves-dating-age-appropriate-alexandra-grant-reveals-about-n1076756)
+
+![bounding box and landmarks data](https://raw.githubusercontent.com/RTae/KhaoManee/main/example/data.png)
+[source of images](https://www.nbcnews.com/pop-culture/celebrity/what-keanu-reeves-dating-age-appropriate-alexandra-grant-reveals-about-n1076756)
+
+![face recognition](https://raw.githubusercontent.com/RTae/KhaoManee/main/example/result.png)
+[source of images](https://prachatai.com/english/node/8000)
 
 ### :blue_book: Reference
 1. timesler's facenet+mtcnn repo [repository](https://github.com/timesler/facenet-pytorch/tree/dd0b0e4b5b124b599f75b87e570910e5d80c8848#the-fastmtcnn-algorithm) (Big Thank you to this repo :pray: :pray:)
