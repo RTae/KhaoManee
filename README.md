@@ -1,5 +1,5 @@
 # KhaoManee
-KhaoManee is face detection and face-recognition API that provide face bounding box and face landmark for face detection. KhaoManee's face detection model uses MTCNN that returns 5 points face-landmark. KhaoManee's face-recognition API can recognize the member of Parliament in Thailand, but it can detect only a few people such as Prayut Chan-o-cha, Prawit Wongsuwan, Thanathorn Juangroongruangkit. I will add more in the future. If you have any person who is a member of Parliament in Thailand that you are interested. You can create an issue to tell me. I will consider it and add it. This project implements the model with Pytorch and  API with FastAPI
+***KhaoManee*** is a face-detection and face-recognition API that provides face bounding box and face-landmarks for face-detection. KhaoManee's face-detection model uses ***MTCNN*** that returns 5 points face-landmark. KhaoManee's face-recognition API can recognize the member of Parliament in Thailand, but it can detect only a few people such as ***Prayut Chan-o-cha***, ***Prawit Wongsuwan***, ***Thanathorn Juangroongruangkit***. I will add more in the future. If you have any person who is a member of Parliament in Thailand that you are interested in. You can tell me by creating an issue. I will consider it and add it. KhaoManee's face-recognition use ***Facenet*** model to find similarity with embedding vector (For this project, I use vector size is 512). Last, this project implements the model with Pytorch and  API with FastAPI. If you have any problems or any questions,  you can tell me by creating issue :pray:
 
 ### :pushpin: Requirement
 
@@ -77,7 +77,7 @@ or from my build
 ```
 
 ### :blue_book: Reference
-1. timesler's facenet+mtcnn repo [repository](https://github.com/timesler/facenet-pytorch/tree/dd0b0e4b5b124b599f75b87e570910e5d80c8848#the-fastmtcnn-algorithm)
+1. timesler's facenet+mtcnn repo [repository](https://github.com/timesler/facenet-pytorch/tree/dd0b0e4b5b124b599f75b87e570910e5d80c8848#the-fastmtcnn-algorithm) (Big Thank you to this repo :pray: :pray:)
 
 2. F. Schroff, D. Kalenichenko, J. Philbin. FaceNet: A Unified Embedding for Face Recognition and Clustering, arXiv:1503.03832, 2015. [PDF](https://arxiv.org/pdf/1503.03832.pdf)
 
