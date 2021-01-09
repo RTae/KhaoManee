@@ -20,7 +20,7 @@ This is KhaoManee
     uvicorn main:app --reload
     ```
 
-4. (127.0.0.1:8000/docs)[127.0.0.1:8000/docs] to see the document of this api. Done !!!
+4. [127.0.0.1:8000/docs](127.0.0.1:8000/docs) to see the document of this api. Done !!!
 
 ### :bust_in_silhouette: How to add more face to recognize
 
