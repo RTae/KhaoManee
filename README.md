@@ -26,9 +26,9 @@ This is KhaoManee
 
 1. Create a folder with the name that you want to recognize.
 
-    '''
+    ```
     ./data/imges/<your_folder_with_name>
-    '''
+    ```
 
     ***example*** /data/imges/prayuth
 
