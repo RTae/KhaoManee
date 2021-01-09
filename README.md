@@ -1,32 +1,49 @@
 # KhaoManee
 This is KhaoManee
 
-# :pushpin: Requirement
+### :pushpin: Requirement
 
-# How to use
+### How to use
 
-1. Clone this project
+1. Clone this project.
     ```
     git clone https://github.com/RTae/KhaoManee.git
     ```
 
-2. Run this line to install package
+2. Run this line to install package,
     ```
     pip install -r reqguirements.txt
     ```
 
-3. Run this line to run FastAPI in local
+3. Run this line to run FastAPI in local.
     ```
     uvicorn main:app --reload
     ```
 
 4. Done !!
 
-# :book: How to add more person to recognition
+### :bust_in_silhouette: How to add more face to recognize
 
-# :whale: Docker Build
+1. Create a folder with the name that you want to recognize.
 
-# Reference
+    '''
+    ./data/imges/<your_folder_with_name>
+    '''
+
+    ***example*** /data/imges/prayuth
+
+2. Add images of the person that you want to  recognize at least one imges (recommed to be      straight face picture).
+
+3. Run this line to add.
+    ```
+        python add_face_rec_images.py
+    ```
+
+### :whale: Docker Build
+
+
+
+### :blue_book: Reference
 1. timesler's facenet+mtcnn repo [repository](https://github.com/timesler/facenet-pytorch/tree/dd0b0e4b5b124b599f75b87e570910e5d80c8848#the-fastmtcnn-algorithm)
 
 2. F. Schroff, D. Kalenichenko, J. Philbin. FaceNet: A Unified Embedding for Face Recognition and Clustering, arXiv:1503.03832, 2015. [PDF](https://arxiv.org/pdf/1503.03832.pdf)
