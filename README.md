@@ -1,21 +1,28 @@
 # KhaoManee
 This is KhaoManee
 
-# :pushpin:Requirement
+# :pushpin: Requirement
 
 # How to use
 
 1. Clone this project
-    '''
+    ```
     git clone https://github.com/RTae/KhaoManee.git
-    '''
-2. pip install -r reqguirements.txt
+    ```
 
-3. uvicorn main:app --reload
+2. Run this line to install package
+    ```
+    pip install -r reqguirements.txt
+    ```
 
-4. Run !!
+3. Run this line to run FastAPI in local
+    ```
+    uvicorn main:app --reload
+    ```
 
-# How to add more person to recognition
+4. Done !!
+
+# :book: How to add more person to recognition
 
 # :whale: Docker Build
 
