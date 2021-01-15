@@ -76,11 +76,7 @@
 or from my build
 
 ```
-<<<<<<< HEAD
     docker container run -d --name mycontainer -p 80:80 rtae/khaomanee:1.0.7
-=======
-    docker container run -d --name mycontainer -p 80:80 rtae/khaomanee:1.0.5
->>>>>>> 30e0e67433fc362377061a0234b20899c571efe5
 ```
 
 ### :fire: Demo
